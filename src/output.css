@@ -840,12 +840,12 @@ video {
   height: 1rem;
 }
 
-.h-\[2px\] {
-  height: 2px;
+.h-40 {
+  height: 10rem;
 }
 
-.h-\[300px\] {
-  height: 300px;
+.h-\[2px\] {
+  height: 2px;
 }
 
 .w-1 {
@@ -934,10 +934,6 @@ video {
 
 .w-96 {
   width: 24rem;
-}
-
-.w-\[250px\] {
-  width: 250px;
 }
 
 .w-\[30px\] {
@@ -1714,8 +1710,8 @@ video {
 .blob {
   margin-left: auto;
   margin-right: auto;
-  height: 300px;
-  width: 250px;
+  height: 10rem;
+  width: 10rem;
   border-radius: 0.75rem;
   background-size: cover;
   background-position: right;

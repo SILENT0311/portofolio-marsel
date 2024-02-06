@@ -27,7 +27,7 @@
 
 /* blob */
 .blob {
-  @apply w-[250px] h-[300px] mx-auto pb-3 rounded-xl bg-right bg-cover shadow-xl ring-4 ring-oren;
+  @apply w-40 h-40 mx-auto pb-3 rounded-xl bg-right bg-cover shadow-xl ring-4 ring-oren;
   background-image: url("../img/profil.webp");
   animation: animate 5s ease-in-out infinite;
   transition: all 1 ease-in-out;
