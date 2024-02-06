@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .hamburger{
-  @apply w-[30px] h-[2px] my-2 bg-black;
-} */
 .hamburger {
   @apply w-6 h-1 my-1 block bg-black rounded-xl;
 }
@@ -27,7 +24,7 @@
 
 /* blob */
 .blob {
-  @apply w-52 h-52 mx-auto pb-3 rounded-xl bg-right bg-cover shadow-xl ring-4 ring-oren;
+  @apply w-60 h-60 mx-auto pb-3 rounded-xl bg-right bg-cover shadow-xl ring-4 ring-oren;
   background-image: url("../img/profil.webp");
   animation: animate 5s ease-in-out infinite;
   transition: all 1 ease-in-out;
