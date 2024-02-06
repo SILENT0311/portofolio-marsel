@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .hamburger{
+  @apply w-[30px] h-[2px] my-2 bg-black;
+} */
+.hamburger{
+  @apply w-12 h-2 my-2 block bg-black rounded-xl;
+}
+
+
+.hamburger-acitve > span:nth-child(1){
+  @apply rotate-45 ;
+}
+.hamburger-acitve > span:nth-child(2){
+  @apply scale-0;
+}
+.hamburger-acitve > span:nth-child(3){
+  @apply -rotate-45;
+}
+
+.fixedNav{
+  @apply fixed bg-white bg-opacity-70;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 1px 0 0 rgba(0,0,0,0.5);
+}
+
+/* blob */
+.blob{
+  @apply  w-[400px] h-[500px] mx-auto pb-3 rounded-xl bg-right bg-cover shadow-xl ring-4 ring-oren ;
+  background-image: url('../img/profil.webp');
+  animation: animate 5s ease-in-out infinite;
+  transition: all 1 ease-in-out;
+}
+@keyframes animate{
+  0%, 100%{
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  25%{
+    border-radius: 40% 30% 70% 60% / 30% 70% 40% 60%
+  }
+  50%{
+    border-radius: 30% 70% 60% 40% / 70% 40% 60% 30%
+  }
+  75%{
+    border-radius: 70% 60% 40% 30% / 40% 60% 30% 70%
+  }
+}
