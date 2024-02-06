@@ -844,6 +844,10 @@ video {
   height: 10rem;
 }
 
+.h-52 {
+  height: 13rem;
+}
+
 .h-\[2px\] {
   height: 2px;
 }
@@ -993,6 +997,12 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.scale-100 {
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .scale-x-0 {
   --tw-scale-x: 0;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1133,6 +1143,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
 }
 
 .rounded {
@@ -1673,8 +1687,8 @@ video {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
   display: block;
-  height: 0.5rem;
-  width: 2.25rem;
+  height: 0.25rem;
+  width: 1.5rem;
   border-radius: 0.75rem;
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1710,8 +1724,8 @@ video {
 .blob {
   margin-left: auto;
   margin-right: auto;
-  height: 10rem;
-  width: 10rem;
+  height: 13rem;
+  width: 13rem;
   border-radius: 0.75rem;
   background-size: cover;
   background-position: right;
@@ -1958,6 +1972,12 @@ video {
     width: auto;
   }
 
+  .lg\:scale-100 {
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
   .lg\:grid-flow-col {
     grid-auto-flow: column;
   }
@@ -1986,6 +2006,10 @@ video {
     gap: 1.5rem;
   }
 
+  .lg\:text-ellipsis {
+    text-overflow: ellipsis;
+  }
+
   .lg\:bg-transparent {
     background-color: transparent;
   }
@@ -2012,6 +2036,16 @@ video {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:shadow-none {
@@ -2056,6 +2090,10 @@ video {
     gap: 13rem;
   }
 
+  .xl\:text-ellipsis {
+    text-overflow: ellipsis;
+  }
+
   .xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2073,6 +2111,16 @@ video {
 
   .xl\:text-xl {
     font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .xl\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 

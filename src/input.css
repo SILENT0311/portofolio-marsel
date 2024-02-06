@@ -6,7 +6,7 @@
   @apply w-[30px] h-[2px] my-2 bg-black;
 } */
 .hamburger {
-  @apply w-9 h-2 my-1 block bg-black rounded-xl;
+  @apply w-6 h-1 my-1 block bg-black rounded-xl;
 }
 
 .hamburger-acitve > span:nth-child(1) {
@@ -27,7 +27,7 @@
 
 /* blob */
 .blob {
-  @apply w-40 h-40 mx-auto pb-3 rounded-xl bg-right bg-cover shadow-xl ring-4 ring-oren;
+  @apply w-52 h-52 mx-auto pb-3 rounded-xl bg-right bg-cover shadow-xl ring-4 ring-oren;
   background-image: url("../img/profil.webp");
   animation: animate 5s ease-in-out infinite;
   transition: all 1 ease-in-out;
